@@ -10,13 +10,13 @@ object Modules {
     val common = ":common"
     val commonTest = ":common_test"
 
-    val local = ":data:local"
-    val remote = ":data:remote"
-    val model = ":data:model"
-    val repository = ":data:repository"
+    val local = ":local"
+    val remote = ":remote"
+    val model = ":model"
+    val repository = ":repository"
 
-    val featureHome = ":features:home"
-    val featureDetail = ":features:detail"
+    val featureHome = ":home"
+    val featureDetail = ":detail"
 }
 
 object Releases {
