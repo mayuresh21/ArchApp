@@ -2,6 +2,8 @@
 buildscript {
     repositories {
         google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
         jcenter()
     }
     dependencies {
@@ -22,7 +24,8 @@ allprojects {
 
     repositories {
         maven { url 'https://maven.google.com/' }
-        maven { url "https://jitpack.io" }
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
         //maven { url 'https://maven.fabric.io/public' }
         google()
         jcenter()
@@ -31,6 +34,10 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
 
 task x(type: GradleBuild) { tasks = ["detekt", "ktlint", "lintDebug", "testDebugUnitTest"] }
