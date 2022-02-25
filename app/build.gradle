@@ -28,14 +28,16 @@ dependencies {
     implementation project(Modules.navigation)
 
 
-    /*implementation 'com.github.mayuresh21.ArchApp-master:common:1.1'
-    implementation 'com.github.mayuresh21.ArchApp-master:home:1.1'
-    implementation 'com.github.mayuresh21.ArchApp-master:navigation:1.1'
-    implementation 'com.github.mayuresh21.ArchApp-master:detail:1.1'
-    implementation 'com.github.mayuresh21.ArchApp-master:model:1.1'
-    implementation 'com.github.mayuresh21.ArchApp-master:repository:1.1'
-    implementation 'com.github.mayuresh21.ArchApp-master:remote:1.1'
-    implementation 'com.github.mayuresh21.ArchApp-master:local:1.1'*/
+    /*implementation 'com.github.mayuresh21.ArchApp:common:1.9'
+    implementation 'com.github.mayuresh21.ArchApp:home:1.9'
+    implementation 'com.github.mayuresh21.ArchApp:navigation:1.9'
+    implementation 'com.github.mayuresh21.ArchApp:detail:1.9'
+    implementation 'com.github.mayuresh21.ArchApp:model:1.9'
+    implementation 'com.github.mayuresh21.ArchApp:repository:1.9'
+    implementation 'com.github.mayuresh21.ArchApp:remote:1.9'
+    implementation 'com.github.mayuresh21.ArchApp:local:1.9'
+    implementation 'com.github.mayuresh21.ArchApp:common_test:1.9'
+*/
     // KOIN
     implementation Libraries.koin
     implementation Libraries.koinViewModel

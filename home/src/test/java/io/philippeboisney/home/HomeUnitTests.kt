@@ -1,4 +1,4 @@
-package io.philippeboisney.util
+package io.philippeboisney.home
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
@@ -8,7 +8,7 @@ import io.mockk.*
 import io.philippeboisney.common.utils.Event
 import io.philippeboisney.common_test.datasets.UserDataset.FAKE_USERS
 import io.philippeboisney.common_test.extensions.blockingObserve
-import io.philippeboisney.util.domain.GetTopUsersUseCase
+import io.philippeboisney.home.domain.GetTopUsersUseCase
 import io.philippeboisney.model.User
 import io.philippeboisney.navigation.NavigationCommand
 import io.philippeboisney.repository.AppDispatchers
